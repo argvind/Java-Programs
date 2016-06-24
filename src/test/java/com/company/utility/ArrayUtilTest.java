@@ -1,4 +1,4 @@
-package com.nttdata.utility;
+package com.company.utility;
 
 import org.junit.Before;
 import org.junit.Test;

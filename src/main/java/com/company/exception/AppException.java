@@ -8,6 +8,9 @@ public class AppException extends Exception {
 
     private static final long serialVersionUID = -3827278770349863965L;
 
+    /**
+     * Default Constructor
+     */
     public AppException() {
         super();
     }

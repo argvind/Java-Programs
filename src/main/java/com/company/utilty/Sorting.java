@@ -20,8 +20,8 @@ public class Sorting {
 			finalItems = items;
 		}else{
 			final int newSize = iSize/2;
-			int[] firstPart = new int[newSize];
-			int[] secondPart = new int[iSize - newSize];
+			final int[] firstPart = new int[newSize];
+			final int[] secondPart = new int[iSize - newSize];
 			
 			System.arraycopy(items, 0, firstPart, 0, newSize);
 			System.arraycopy(items, newSize, secondPart, 0, secondPart.length);

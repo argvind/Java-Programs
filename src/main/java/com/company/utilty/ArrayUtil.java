@@ -13,7 +13,7 @@ import com.company.logger.MainLogger;
 public class ArrayUtil {
 
 	//A marker to label the duplicate numbers as visited
-	public static int VISITED = -999999999;
+	public static final int VISITED = -999999999;
 
 	/**
 	 * This method returns an integer array after deleting all the duplicates,
@@ -22,13 +22,13 @@ public class ArrayUtil {
 	 * @param originalElements
 	 * @return uniqueItems
 	 */
-	public static int[] removeDuplicatesForLessRedundantElements(int[] originalElements) {
+	public static int[] removeDuplicatesForLessRedundantElements(final int[] originalElements) {
 		MainLogger.debug("Method removeDuplicatesForLessRedundantElements started");
 		final Set<Integer> uniqueNumbers = new LinkedHashSet<Integer>();
 		for (int i = 0; i < originalElements.length; i++) {
 			uniqueNumbers.add(originalElements[i]);
 		}
-		int[] uniqueItems = new int[uniqueNumbers.size()];
+		final int[] uniqueItems = new int[uniqueNumbers.size()];
 		int index = 0;
 		for (final Integer integer : uniqueNumbers) {
 			uniqueItems[index++] = integer;
