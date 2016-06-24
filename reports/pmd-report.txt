@@ -1,0 +1,109 @@
+src/main/java/com/company/logger/MainLogger.java:11:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/company/logger/MainLogger.java:12:	fieldCommentRequirement Required
+src/main/java/com/company/logger/MainLogger.java:48:	Comment is too large: Too many lines
+src/main/java/com/company/logger/MainLogger.java:57:	Avoid variables with short names like th
+src/main/java/com/company/logger/MainLogger.java:71:	Comment is too large: Too many lines
+src/main/java/com/company/logger/MainLogger.java:80:	Avoid variables with short names like th
+src/main/java/com/company/main/DeDup.java:12:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/company/main/DeDup.java:17:	fieldCommentRequirement Required
+src/main/java/com/company/main/DeDup.java:24:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/company/main/DeDup.java:26:	There is log block not surrounded by if
+src/main/java/com/company/main/DeDup.java:26:	There is log block not surrounded by if
+src/main/java/com/company/main/DeDup.java:29:	There is log block not surrounded by if
+src/main/java/com/company/main/DeDup.java:29:	There is log block not surrounded by if
+src/main/java/com/company/main/DeDup.java:32:	There is log block not surrounded by if
+src/main/java/com/company/main/DeDup.java:32:	There is log block not surrounded by if
+src/main/java/com/company/main/DeDup.java:35:	There is log block not surrounded by if
+src/main/java/com/company/main/DeDup.java:35:	There is log block not surrounded by if
+src/main/java/com/company/utilty/ArrayUtil.java:13:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/company/utilty/ArrayUtil.java:16:	fieldCommentRequirement Required
+src/main/java/com/company/utilty/ArrayUtil.java:25:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/company/utilty/ArrayUtil.java:25:	Found 'UR'-anomaly for variable 'integer' (lines '25'-'34').
+src/main/java/com/company/utilty/ArrayUtil.java:29:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/company/utilty/ArrayUtil.java:29:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/company/utilty/ArrayUtil.java:31:	Found 'DD'-anomaly for variable 'uniqueItems' (lines '31'-'34').
+src/main/java/com/company/utilty/ArrayUtil.java:31:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/company/utilty/ArrayUtil.java:32:	Found 'DU'-anomaly for variable 'index' (lines '32'-'38').
+src/main/java/com/company/utilty/ArrayUtil.java:34:	Found 'DD'-anomaly for variable 'uniqueItems' (lines '34'-'34').
+src/main/java/com/company/utilty/ArrayUtil.java:40:	Comment is too large: Too many lines
+src/main/java/com/company/utilty/ArrayUtil.java:49:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/company/utilty/ArrayUtil.java:49:	Parameter 'originalElements' is not assigned and could be declared final
+src/main/java/com/company/utilty/ArrayUtil.java:52:	Avoid excessively long variable names like ilastUniqueNumberIndex
+src/main/java/com/company/utilty/ArrayUtil.java:55:	Avoid assignments in operands
+src/main/java/com/company/utilty/ArrayUtil.java:55:	Avoid assignments in operands
+src/main/java/com/company/utilty/ArrayUtil.java:59:	Local variable 'uniqueItems' could be declared final
+src/main/java/com/company/utilty/ArrayUtil.java:66:	Comment is too large: Too many lines
+src/main/java/com/company/utilty/ArrayUtil.java:77:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/company/utilty/ArrayUtil.java:81:	Avoid excessively long variable names like iLastUniqueNumberIndex
+src/main/java/com/company/utilty/ArrayUtil.java:101:	Local variable 'uniqueItems' could be declared final
+src/main/java/com/company/utilty/Sorting.java:8:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/company/utilty/Sorting.java:11:	Comment is too large: Line too long
+src/main/java/com/company/utilty/Sorting.java:16:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/company/utilty/Sorting.java:16:	Parameter 'items' is not assigned and could be declared final
+src/main/java/com/company/utilty/Sorting.java:19:	Avoid using Literals in Conditional Statements
+src/main/java/com/company/utilty/Sorting.java:41:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/main/java/com/company/utilty/Sorting.java:44:	Found 'DD'-anomaly for variable 'finalItems' (lines '44'-'52').
+src/main/java/com/company/utilty/Sorting.java:44:	Found 'DD'-anomaly for variable 'finalItems' (lines '44'-'54').
+src/main/java/com/company/utilty/Sorting.java:44:	Found 'DD'-anomaly for variable 'finalItems' (lines '44'-'59').
+src/main/java/com/company/utilty/Sorting.java:44:	Found 'DD'-anomaly for variable 'finalItems' (lines '44'-'63').
+src/main/java/com/company/utilty/Sorting.java:48:	Found 'DU'-anomaly for variable 'iMainIndex' (lines '48'-'67').
+src/main/java/com/company/utilty/Sorting.java:52:	Found 'DD'-anomaly for variable 'finalItems' (lines '52'-'52').
+src/main/java/com/company/utilty/Sorting.java:52:	Found 'DD'-anomaly for variable 'finalItems' (lines '52'-'54').
+src/main/java/com/company/utilty/Sorting.java:52:	Found 'DD'-anomaly for variable 'finalItems' (lines '52'-'59').
+src/main/java/com/company/utilty/Sorting.java:52:	Found 'DD'-anomaly for variable 'finalItems' (lines '52'-'63').
+src/main/java/com/company/utilty/Sorting.java:54:	Found 'DD'-anomaly for variable 'finalItems' (lines '54'-'52').
+src/main/java/com/company/utilty/Sorting.java:54:	Found 'DD'-anomaly for variable 'finalItems' (lines '54'-'54').
+src/main/java/com/company/utilty/Sorting.java:54:	Found 'DD'-anomaly for variable 'finalItems' (lines '54'-'59').
+src/main/java/com/company/utilty/Sorting.java:54:	Found 'DD'-anomaly for variable 'finalItems' (lines '54'-'63').
+src/main/java/com/company/utilty/Sorting.java:59:	Found 'DD'-anomaly for variable 'finalItems' (lines '59'-'59').
+src/main/java/com/company/utilty/Sorting.java:59:	Found 'DD'-anomaly for variable 'finalItems' (lines '59'-'63').
+src/main/java/com/company/utilty/Sorting.java:63:	Found 'DD'-anomaly for variable 'finalItems' (lines '63'-'63').
+src/test/java/com/company/utility/ArrayUtilTest.java:3:	Avoid unused imports such as 'org.junit.Before'
+src/test/java/com/company/utility/ArrayUtilTest.java:16:	Each class should declare at least one constructor
+src/test/java/com/company/utility/ArrayUtilTest.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/com/company/utility/ArrayUtilTest.java:18:	fieldCommentRequirement Required
+src/test/java/com/company/utility/ArrayUtilTest.java:19:	Avoid excessively long variable names like expectedUniquesIntegersInInsertionOder
+src/test/java/com/company/utility/ArrayUtilTest.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/com/company/utility/ArrayUtilTest.java:19:	Use explicit scoping instead of the default package private level
+src/test/java/com/company/utility/ArrayUtilTest.java:19:	fieldCommentRequirement Required
+src/test/java/com/company/utility/ArrayUtilTest.java:20:	Avoid excessively long variable names like expectedUniquesIntegersSortedOder
+src/test/java/com/company/utility/ArrayUtilTest.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/com/company/utility/ArrayUtilTest.java:20:	Use explicit scoping instead of the default package private level
+src/test/java/com/company/utility/ArrayUtilTest.java:20:	fieldCommentRequirement Required
+src/test/java/com/company/utility/ArrayUtilTest.java:21:	Avoid excessively long variable names like deleteDuplicateErrorMsg
+src/test/java/com/company/utility/ArrayUtilTest.java:21:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/com/company/utility/ArrayUtilTest.java:21:	This final field could be made static
+src/test/java/com/company/utility/ArrayUtilTest.java:21:	Use explicit scoping instead of the default package private level
+src/test/java/com/company/utility/ArrayUtilTest.java:21:	fieldCommentRequirement Required
+src/test/java/com/company/utility/ArrayUtilTest.java:23:	JUnit 4 tests that set up tests should use the @Before annotation
+src/test/java/com/company/utility/ArrayUtilTest.java:23:	protectedMethodCommentRequirement Required
+src/test/java/com/company/utility/ArrayUtilTest.java:36:	Comment is too large: Line too long
+src/test/java/com/company/utility/ArrayUtilTest.java:39:	JUnit tests should not contain more than 1 assert(s).
+src/test/java/com/company/utility/ArrayUtilTest.java:40:	Avoid excessively long variable names like randomTestIntegers
+src/test/java/com/company/utility/ArrayUtilTest.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/company/utility/ArrayUtilTest.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/company/utility/ArrayUtilTest.java:54:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/company/utility/ArrayUtilTest.java:54:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/company/utility/ArrayUtilTest.java:64:	JUnit tests should not contain more than 1 assert(s).
+src/test/java/com/company/utility/ArrayUtilTest.java:65:	Avoid excessively long variable names like randomTestIntegers
+src/test/java/com/company/utility/ArrayUtilTest.java:71:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/company/utility/ArrayUtilTest.java:79:	JUnit tests should not contain more than 1 assert(s).
+src/test/java/com/company/utility/ArrayUtilTest.java:80:	Avoid excessively long variable names like randomTestIntegers
+src/test/java/com/company/utility/ArrayUtilTest.java:89:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/company/utility/ArrayUtilTest.java:89:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/company/utility/ArrayUtilTest.java:93:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/company/utility/ArrayUtilTest.java:93:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/company/utility/ArrayUtilTest.java:102:	JUnit tests should not contain more than 1 assert(s).
+src/test/java/com/company/utility/ArrayUtilTest.java:103:	Avoid excessively long variable names like randomTestIntegers
+src/test/java/com/company/utility/ArrayUtilTest.java:108:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/company/utility/ArrayUtilTest.java:116:	JUnit tests should not contain more than 1 assert(s).
+src/test/java/com/company/utility/ArrayUtilTest.java:117:	Avoid excessively long variable names like randomTestIntegers
+src/test/java/com/company/utility/ArrayUtilTest.java:117:	Local variable 'randomTestIntegers' could be declared final
+src/test/java/com/company/utility/ArrayUtilTest.java:126:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/company/utility/ArrayUtilTest.java:126:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/company/utility/ArrayUtilTest.java:131:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/company/utility/ArrayUtilTest.java:131:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/company/utility/ArrayUtilTest.java:137:	Comment is too large: Line too long
+src/test/java/com/company/utility/ArrayUtilTest.java:140:	JUnit tests should not contain more than 1 assert(s).
+src/test/java/com/company/utility/ArrayUtilTest.java:141:	Avoid excessively long variable names like randomTestIntegers
+src/test/java/com/company/utility/ArrayUtilTest.java:146:	Potential violation of Law of Demeter (method chain calls)
