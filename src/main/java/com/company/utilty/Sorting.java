@@ -14,19 +14,21 @@ public class Sorting {
 	 * @return
 	 */
 	public static int[] mergeSort(int[] items){
-		int iSize = items.length;
+		final int iSize = items.length;
+		int[] finalItems;
 		if(iSize == 1){
-			return items;
+			finalItems = items;
+		}else{
+			final int newSize = iSize/2;
+			int[] firstPart = new int[newSize];
+			int[] secondPart = new int[iSize - newSize];
+			
+			System.arraycopy(items, 0, firstPart, 0, newSize);
+			System.arraycopy(items, newSize, secondPart, 0, secondPart.length);
+			
+			finalItems = merge(mergeSort(firstPart), mergeSort(secondPart));
 		}
-		
-		int newSize = (iSize/2);
-		int[] firstPart = new int[newSize];
-		int[] secondPart = new int[iSize - newSize];
-		
-		System.arraycopy(items, 0, firstPart, 0, newSize);
-		System.arraycopy(items, newSize, secondPart, 0, secondPart.length);
-		
-		return merge(mergeSort(firstPart), mergeSort(secondPart));
+		return finalItems;
 	}
 
 	/**
@@ -36,9 +38,9 @@ public class Sorting {
 	 * @param secondPart
 	 * @return Merged sorted array
 	 */
-	private static int[] merge(int[] firstPart, int[] secondPart) {
-		int firstPartSize = firstPart.length;
-		int secondPartSize = secondPart.length;
+	private static int[] merge(final int[] firstPart, final int[] secondPart) {
+		final int firstPartSize = firstPart.length;
+		final int secondPartSize = secondPart.length;
 		int[] finalItems = new int[firstPartSize + secondPartSize];
 		
 		int iLeftIndex = 0;

@@ -9,12 +9,12 @@ import org.apache.log4j.Logger;
  *
  */
 public class MainLogger {
-	private static Logger MAIN_LOGGER = Logger.getLogger("MainLogger");
+	private static final Logger MAIN_LOGGER = Logger.getLogger("MainLogger");
 
 	/**
 	 * Sets the Logger level to OFF, disabling log output
 	 */
-	public static void setLoggingLevel(Level level) {
+	public static void setLoggingLevel(final Level level) {
 		MAIN_LOGGER.setLevel(level);
 	}
 
@@ -31,7 +31,7 @@ public class MainLogger {
 	 * @param value
 	 *            The message to log
 	 */
-	public static void debug(Object value) {
+	public static void debug(final Object value) {
 		MAIN_LOGGER.debug(value);
 	}
 
@@ -41,7 +41,7 @@ public class MainLogger {
 	 * @param value
 	 *            The message to log
 	 */
-	public static void error(Object value) {
+	public static void error(final Object value) {
 		MAIN_LOGGER.error(value);
 	}
 
@@ -54,7 +54,7 @@ public class MainLogger {
 	 * @param th
 	 *            The exception to log, including stack trace
 	 */
-	public static void error(Object value, Throwable th) {
+	public static void error(final Object value, final Throwable th) {
 		MAIN_LOGGER.error(value, th);
 	}
 
@@ -64,7 +64,7 @@ public class MainLogger {
 	 * @param value
 	 *            The message to log
 	 */
-	public static void fatal(Object value) {
+	public static void fatal(final Object value) {
 		MAIN_LOGGER.fatal(value);
 	}
 
@@ -77,7 +77,7 @@ public class MainLogger {
 	 * @param th
 	 *            The exception to log, including stack trace
 	 */
-	public static void fatal(Object value, Throwable th) {
+	public static void fatal(final Object value, final Throwable th) {
 		MAIN_LOGGER.fatal(value, th);
 	}
 
@@ -87,7 +87,7 @@ public class MainLogger {
 	 * @param value
 	 *            The message to log
 	 */
-	public static void info(Object value) {
+	public static void info(final Object value) {
 		MAIN_LOGGER.info(value);
 	}
 
@@ -97,7 +97,7 @@ public class MainLogger {
 	 * @param value
 	 *            The message to log
 	 */
-	public static void warn(Object value) {
+	public static void warn(final Object value) {
 		MAIN_LOGGER.warn(value);
 	}
 }

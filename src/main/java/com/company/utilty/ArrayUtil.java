@@ -3,7 +3,6 @@ package com.company.utilty;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-import com.company.exception.AppException;
 import com.company.logger.MainLogger;
 
 /**
@@ -13,6 +12,7 @@ import com.company.logger.MainLogger;
  */
 public class ArrayUtil {
 
+	//A marker to label the duplicate numbers as visited
 	public static int VISITED = -999999999;
 
 	/**
@@ -24,13 +24,13 @@ public class ArrayUtil {
 	 */
 	public static int[] removeDuplicatesForLessRedundantElements(int[] originalElements) {
 		MainLogger.debug("Method removeDuplicatesForLessRedundantElements started");
-		Set<Integer> uniqueNumbers = new LinkedHashSet<Integer>();
+		final Set<Integer> uniqueNumbers = new LinkedHashSet<Integer>();
 		for (int i = 0; i < originalElements.length; i++) {
 			uniqueNumbers.add(originalElements[i]);
 		}
 		int[] uniqueItems = new int[uniqueNumbers.size()];
 		int index = 0;
-		for (Integer integer : uniqueNumbers) {
+		for (final Integer integer : uniqueNumbers) {
 			uniqueItems[index++] = integer;
 		}
 		MainLogger.debug("Method removeDuplicatesForLessRedundantElements end");
@@ -74,7 +74,7 @@ public class ArrayUtil {
 	 * @param originalElements
 	 * @return
 	 */
-	public static int[] removeDuplicatesForMoreRedundantIntegers(int[] originalElements) {
+	public static int[] removeDuplicatesForMoreRedundantIntegers(final int[] originalElements) {
 		MainLogger.debug("Method removeDuplicatesForMoreRedundantIntegers started");
 		int[] tempItems = new int[originalElements.length];
 		System.arraycopy(originalElements, 0, tempItems, 0, originalElements.length);
@@ -82,9 +82,10 @@ public class ArrayUtil {
 		int iMovingIndex = 0;
 
 		// scan all numbers in Array
-		while (++iMovingIndex < tempItems.length) {
+		while (iMovingIndex < tempItems.length) {
 			// skip same numbers
 			if (tempItems[iLastUniqueNumberIndex] == tempItems[iMovingIndex] || tempItems[iMovingIndex] == VISITED) {
+				iMovingIndex++;
 				continue;
 			}
 

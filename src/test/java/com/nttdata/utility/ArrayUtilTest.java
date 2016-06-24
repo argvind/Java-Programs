@@ -1,5 +1,6 @@
 package com.nttdata.utility;
 
+import org.junit.Before;
 import org.junit.Test;
 import org.powermock.api.easymock.PowerMock;
 
@@ -17,13 +18,9 @@ public class ArrayUtilTest extends TestCase {
 	private int[] randomIntegers;
 	int[] expectedUniquesIntegersInInsertionOder;
 	int[] expectedUniquesIntegersSortedOder;
+    final String deleteDuplicateErrorMsg = "Fail: duplicate deletion not working properly";
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see junit.framework.TestCase#setUp()
-	 */
-	protected void setUp() throws Exception {
+    protected void setUp() throws Exception {
 		super.setUp();
 		randomIntegers = new int[] { 1, 2, 34, 34, 25, 1, 45, 3, 26, 85, 4, 34, 86, 25, 43, 2, 1, 10000, 11, 16, 19, 1,
 				18, 4, 9, 3, 20, 17, 8, 15, 6, 2, 5, 10, 14, 12, 13, 7, 8, 9, 1, 2, 15, 12, 18, 10, 14, 20, 17, 16, 3,
@@ -35,27 +32,18 @@ public class ArrayUtilTest extends TestCase {
 				19, 20, 25, 26, 34, 43, 45, 85, 86, 10000 };
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see junit.framework.TestCase#tearDown()
-	 */
-	protected void tearDown() throws Exception {
-		super.tearDown();
-	}
-
 	/**
 	 * Tests the method testRemoveDuplicatesForLeastRedundantElements for int array of some length
 	 */
 	@Test
 	public void testRemoveDuplicatesForLeastRedundantElementsValidArray() {
-		int[] randomTestIntegers = new int[randomIntegers.length];
+		final int[] randomTestIntegers = new int[randomIntegers.length];
 		System.arraycopy(randomIntegers, 0, randomTestIntegers, 0, randomIntegers.length);
 		PowerMock.replayAll();
-		int[] uniqueIntegers = ArrayUtil.removeDuplicatesForLessRedundantElements(randomIntegers);
+		final int[] uniqueIntegers = ArrayUtil.removeDuplicatesForLessRedundantElements(randomIntegers);
 		PowerMock.verifyAll();
 
-		assertEquals("Fail: duplicate deletion not working properly", expectedUniquesIntegersInInsertionOder.length,
+		assertEquals(deleteDuplicateErrorMsg, expectedUniquesIntegersInInsertionOder.length,
 				uniqueIntegers.length);
 		for (int i = 0; i < uniqueIntegers.length; i++) {
 			assertEquals("Fail: Numbers are not in order", expectedUniquesIntegersInInsertionOder[i],
@@ -69,13 +57,14 @@ public class ArrayUtilTest extends TestCase {
 	}
 	
 	/**
-	 * Tests the method testRemoveDuplicatesForLeastRedundantElements for all 0 in array
+	 * Tests the method testRemoveDuplicatesForLeastRedundantElements
+	 * for all 0 in array
 	 */
 	@Test
 	public void testRemoveDuplicatesForLeastRedundantElementsBlankArray() {
-		int[] randomTestIntegers = new int[3];
+		final int[] randomTestIntegers = new int[3];
 		PowerMock.replayAll();
-		int[] uniqueIntegers = ArrayUtil.removeDuplicatesForLessRedundantElements(randomTestIntegers);
+		final int[] uniqueIntegers = ArrayUtil.removeDuplicatesForLessRedundantElements(randomTestIntegers);
 		PowerMock.verifyAll();
 
 		assertEquals("Fail: duplicate deletion not working properly", 1, uniqueIntegers.length);
@@ -88,13 +77,13 @@ public class ArrayUtilTest extends TestCase {
 	 */
 	@Test
 	public void testRemoveDuplicatesFromHugeArray() {
-		int[] randomTestIntegers = new int[randomIntegers.length];
+		final int[] randomTestIntegers = new int[randomIntegers.length];
 		System.arraycopy(randomIntegers, 0, randomTestIntegers, 0, randomIntegers.length);
 		PowerMock.replayAll();
-		int[] uniqueIntegers = ArrayUtil.removeDuplicatesFromHugeArray(randomIntegers);
+		final int[] uniqueIntegers = ArrayUtil.removeDuplicatesFromHugeArray(randomIntegers);
 		PowerMock.verifyAll();
 
-		assertEquals("Fail: duplicate deletion not working properly", expectedUniquesIntegersSortedOder.length,
+		assertEquals(deleteDuplicateErrorMsg, expectedUniquesIntegersSortedOder.length,
 				uniqueIntegers.length);
 		for (int i = 0; i < uniqueIntegers.length; i++) {
 			assertEquals("Fail: Numbers are not in order", expectedUniquesIntegersSortedOder[i], uniqueIntegers[i]);
@@ -111,12 +100,12 @@ public class ArrayUtilTest extends TestCase {
 	 */
 	@Test
 	public void testRemoveDuplicatesFromHugeArrayForAllItemZero() {
-		int[] randomTestIntegers = new int[4];
+		final int[] randomTestIntegers = new int[4];
 		PowerMock.replayAll();
-		int[] uniqueIntegers = ArrayUtil.removeDuplicatesFromHugeArray(randomTestIntegers);
+		final int[] uniqueIntegers = ArrayUtil.removeDuplicatesFromHugeArray(randomTestIntegers);
 		PowerMock.verifyAll();
-		assertEquals("Fail: duplicate deletion not working properly", 1, uniqueIntegers.length);
-		assertEquals("Fail: duplicate deletion not working properly", 0,uniqueIntegers[0]);
+		assertEquals(deleteDuplicateErrorMsg, 1, uniqueIntegers.length);
+		assertEquals(deleteDuplicateErrorMsg, 0,uniqueIntegers[0]);
 
 	}
 
@@ -128,10 +117,10 @@ public class ArrayUtilTest extends TestCase {
 		int[] randomTestIntegers = new int[randomIntegers.length];
 		System.arraycopy(randomIntegers, 0, randomTestIntegers, 0, randomIntegers.length);
 		PowerMock.replayAll();
-		int[] uniqueIntegers = ArrayUtil.removeDuplicatesForMoreRedundantIntegers(randomIntegers);
+		final int[] uniqueIntegers = ArrayUtil.removeDuplicatesForMoreRedundantIntegers(randomIntegers);
 		PowerMock.verifyAll();
 
-		assertEquals("Fail: duplicate deletion not working properly", expectedUniquesIntegersInInsertionOder.length,
+		assertEquals(deleteDuplicateErrorMsg, expectedUniquesIntegersInInsertionOder.length,
 				uniqueIntegers.length);
 		for (int i = 0; i < uniqueIntegers.length; i++) {
 			assertEquals("Fail: Numbers are not in order", expectedUniquesIntegersInInsertionOder[i],
@@ -149,12 +138,12 @@ public class ArrayUtilTest extends TestCase {
 	 */
 	@Test
 	public void testRemoveDuplicatesForMoreRedundantIntegersForAllItemZero() {
-		int[] randomTestIntegers = new int[4];
+		final int[] randomTestIntegers = new int[4];
 		PowerMock.replayAll();
-		int[] uniqueIntegers = ArrayUtil.removeDuplicatesForMoreRedundantIntegers(randomTestIntegers);
+		final int[] uniqueIntegers = ArrayUtil.removeDuplicatesForMoreRedundantIntegers(randomTestIntegers);
 		PowerMock.verifyAll();
-		assertEquals("Fail: duplicate deletion not working properly", 1, uniqueIntegers.length);
-		assertEquals("Fail: duplicate deletion not working properly", 0,uniqueIntegers[0]);
+		assertEquals(deleteDuplicateErrorMsg, 1, uniqueIntegers.length);
+		assertEquals(deleteDuplicateErrorMsg, 0,uniqueIntegers[0]);
 
 	}
 

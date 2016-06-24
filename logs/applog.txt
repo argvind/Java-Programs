@@ -92,3 +92,80 @@ DEBUG   2016-06-23 21:50:54,034 [main] MainLogger  - Method removeDuplicatesFrom
 DEBUG   2016-06-23 21:50:54,034 [main] MainLogger  - Method removeDuplicatesFromHugeArray started
 DEBUG   2016-06-23 21:50:54,035 [main] MainLogger  - Method removeDuplicatesForMoreRedundantIntegers started
 DEBUG   2016-06-23 21:50:54,035 [main] MainLogger  - Method removeDuplicatesForMoreRedundantIntegers started
+DEBUG   2016-06-23 22:12:50,511 [main] MainLogger  - Method removeDuplicatesForMoreRedundantIntegers started
+DEBUG   2016-06-23 22:12:50,512 [main] MainLogger  - Method removeDuplicatesForMoreRedundantIntegers started
+DEBUG   2016-06-23 22:12:50,513 [main] MainLogger  - Method removeDuplicatesFromHugeArray started
+DEBUG   2016-06-23 22:12:50,514 [main] MainLogger  - Method removeDuplicatesFromHugeArray started
+DEBUG   2016-06-23 22:12:50,514 [main] MainLogger  - Method removeDuplicatesForMoreRedundantIntegers started
+DEBUG   2016-06-23 22:12:50,514 [main] MainLogger  - Method removeDuplicatesForMoreRedundantIntegers started
+DEBUG   2016-06-23 22:12:50,515 [main] MainLogger  - Method removeDuplicatesForLessRedundantElements started
+DEBUG   2016-06-23 22:12:50,516 [main] MainLogger  - Method removeDuplicatesForLessRedundantElements end
+DEBUG   2016-06-23 22:12:50,516 [main] MainLogger  - Method removeDuplicatesForLessRedundantElements started
+DEBUG   2016-06-23 22:12:50,516 [main] MainLogger  - Method removeDuplicatesForLessRedundantElements end
+DEBUG   2016-06-23 22:12:50,517 [main] MainLogger  - Method removeDuplicatesFromHugeArray started
+DEBUG   2016-06-23 22:12:50,517 [main] MainLogger  - Method removeDuplicatesFromHugeArray started
+DEBUG   2016-06-23 23:38:26,847 [main] MainLogger  - Method removeDuplicatesForLessRedundantElements started
+DEBUG   2016-06-23 23:38:26,852 [main] MainLogger  - Method removeDuplicatesForLessRedundantElements end
+DEBUG   2016-06-23 23:38:26,853 [main] MainLogger  - Method removeDuplicatesFromHugeArray started
+INFO    2016-06-23 23:42:33,151 [main] MainLogger  - Target array for duplicate removal [1, 2, 34, 34, 25, 1, 45, 3, 26, 85, 4, 34, 86, 25, 43, 2, 1, 10000, 11, 16, 19, 1, 18, 4, 9, 3, 20, 17, 8, 15, 6, 2, 5, 10, 14, 12, 13, 7, 8, 9, 1, 2, 15, 12, 18, 10, 14, 20, 17, 16, 3, 6, 19, 13, 5, 11, 4, 7, 19, 16, 5, 9, 12, 3, 20, 7, 15, 17, 10, 6, 1, 8, 18, 4, 14, 13, 2, 11]
+DEBUG   2016-06-23 23:42:33,153 [main] MainLogger  - Method removeDuplicatesForMoreRedundantIntegers started
+DEBUG   2016-06-23 23:42:33,153 [main] MainLogger  - Method removeDuplicatesForMoreRedundantIntegers started
+INFO    2016-06-23 23:42:33,153 [main] MainLogger  - Integers after duplicate removal [1, 2, 34, 25, 45, 3, 26, 85, 4, 86, 43, 10000, 11, 16, 19, 18, 9, 20, 17, 8, 15, 6, 5, 10, 14, 12, 13, 7]
+DEBUG   2016-06-23 23:42:33,153 [main] MainLogger  - Method removeDuplicatesForLessRedundantElements started
+DEBUG   2016-06-23 23:42:33,154 [main] MainLogger  - Method removeDuplicatesForLessRedundantElements end
+INFO    2016-06-23 23:42:33,154 [main] MainLogger  - Integers after duplicate removal [1, 2, 34, 25, 45, 3, 26, 85, 4, 86, 43, 10000, 11, 16, 19, 18, 9, 20, 17, 8, 15, 6, 5, 10, 14, 12, 13, 7]
+DEBUG   2016-06-23 23:42:33,154 [main] MainLogger  - Method removeDuplicatesFromHugeArray started
+INFO    2016-06-23 23:48:46,576 [main] MainLogger  - Target array for duplicate removal [1, 2, 34, 34, 25, 1, 45, 3, 26, 85, 4, 34, 86, 25, 43, 2, 1, 10000, 11, 16, 19, 1, 18, 4, 9, 3, 20, 17, 8, 15, 6, 2, 5, 10, 14, 12, 13, 7, 8, 9, 1, 2, 15, 12, 18, 10, 14, 20, 17, 16, 3, 6, 19, 13, 5, 11, 4, 7, 19, 16, 5, 9, 12, 3, 20, 7, 15, 17, 10, 6, 1, 8, 18, 4, 14, 13, 2, 11]
+DEBUG   2016-06-23 23:48:46,578 [main] MainLogger  - Method removeDuplicatesForMoreRedundantIntegers started
+DEBUG   2016-06-23 23:48:46,578 [main] MainLogger  - Method removeDuplicatesForMoreRedundantIntegers started
+INFO    2016-06-23 23:48:46,578 [main] MainLogger  - Integers after duplicate removal [1, 2, 34, 25, 45, 3, 26, 85, 4, 86, 43, 10000, 11, 16, 19, 18, 9, 20, 17, 8, 15, 6, 5, 10, 14, 12, 13, 7]
+DEBUG   2016-06-23 23:48:46,578 [main] MainLogger  - Method removeDuplicatesForLessRedundantElements started
+DEBUG   2016-06-23 23:48:46,579 [main] MainLogger  - Method removeDuplicatesForLessRedundantElements end
+INFO    2016-06-23 23:48:46,579 [main] MainLogger  - Integers after duplicate removal [1, 2, 34, 25, 45, 3, 26, 85, 4, 86, 43, 10000, 11, 16, 19, 18, 9, 20, 17, 8, 15, 6, 5, 10, 14, 12, 13, 7]
+DEBUG   2016-06-23 23:48:46,579 [main] MainLogger  - Method removeDuplicatesFromHugeArray started
+INFO    2016-06-23 23:51:30,758 [main] MainLogger  - Target array for duplicate removal [1, 2, 34, 34, 25, 1, 45, 3, 26, 85, 4, 34, 86, 25, 43, 2, 1, 10000, 11, 16, 19, 1, 18, 4, 9, 3, 20, 17, 8, 15, 6, 2, 5, 10, 14, 12, 13, 7, 8, 9, 1, 2, 15, 12, 18, 10, 14, 20, 17, 16, 3, 6, 19, 13, 5, 11, 4, 7, 19, 16, 5, 9, 12, 3, 20, 7, 15, 17, 10, 6, 1, 8, 18, 4, 14, 13, 2, 11]
+DEBUG   2016-06-23 23:51:30,759 [main] MainLogger  - Method removeDuplicatesForMoreRedundantIntegers started
+DEBUG   2016-06-23 23:51:30,759 [main] MainLogger  - Method removeDuplicatesForMoreRedundantIntegers started
+INFO    2016-06-23 23:51:30,759 [main] MainLogger  - Integers after duplicate removal [1, 2, 34, 25, 45, 3, 26, 85, 4, 86, 43, 10000, 11, 16, 19, 18, 9, 20, 17, 8, 15, 6, 5, 10, 14, 12, 13, 7]
+DEBUG   2016-06-23 23:51:30,759 [main] MainLogger  - Method removeDuplicatesForLessRedundantElements started
+DEBUG   2016-06-23 23:51:30,760 [main] MainLogger  - Method removeDuplicatesForLessRedundantElements end
+INFO    2016-06-23 23:51:30,760 [main] MainLogger  - Integers after duplicate removal [1, 2, 34, 25, 45, 3, 26, 85, 4, 86, 43, 10000, 11, 16, 19, 18, 9, 20, 17, 8, 15, 6, 5, 10, 14, 12, 13, 7]
+DEBUG   2016-06-23 23:51:30,760 [main] MainLogger  - Method removeDuplicatesFromHugeArray started
+DEBUG   2016-06-24 00:02:40,131 [main] MainLogger  - Method removeDuplicatesForMoreRedundantIntegers started
+DEBUG   2016-06-24 00:02:40,133 [main] MainLogger  - Method removeDuplicatesForMoreRedundantIntegers started
+DEBUG   2016-06-24 00:02:40,133 [main] MainLogger  - Method removeDuplicatesFromHugeArray started
+DEBUG   2016-06-24 00:02:40,134 [main] MainLogger  - Method removeDuplicatesFromHugeArray started
+DEBUG   2016-06-24 00:02:40,135 [main] MainLogger  - Method removeDuplicatesForLessRedundantElements started
+DEBUG   2016-06-24 00:02:40,136 [main] MainLogger  - Method removeDuplicatesForLessRedundantElements end
+DEBUG   2016-06-24 00:05:40,265 [main] MainLogger  - Method removeDuplicatesFromHugeArray started
+DEBUG   2016-06-24 00:05:40,267 [main] MainLogger  - Method removeDuplicatesFromHugeArray started
+DEBUG   2016-06-24 00:05:40,268 [main] MainLogger  - Method removeDuplicatesForMoreRedundantIntegers started
+DEBUG   2016-06-24 00:05:40,269 [main] MainLogger  - Method removeDuplicatesForMoreRedundantIntegers started
+DEBUG   2016-06-24 00:05:40,269 [main] MainLogger  - Method removeDuplicatesForMoreRedundantIntegers started
+DEBUG   2016-06-24 00:05:40,269 [main] MainLogger  - Method removeDuplicatesForMoreRedundantIntegers started
+DEBUG   2016-06-24 00:05:40,270 [main] MainLogger  - Method removeDuplicatesFromHugeArray started
+DEBUG   2016-06-24 00:05:40,270 [main] MainLogger  - Method removeDuplicatesFromHugeArray started
+DEBUG   2016-06-24 00:05:40,270 [main] MainLogger  - Method removeDuplicatesForLessRedundantElements started
+DEBUG   2016-06-24 00:05:40,271 [main] MainLogger  - Method removeDuplicatesForLessRedundantElements end
+DEBUG   2016-06-24 00:05:40,272 [main] MainLogger  - Method removeDuplicatesForLessRedundantElements started
+DEBUG   2016-06-24 00:05:40,272 [main] MainLogger  - Method removeDuplicatesForLessRedundantElements end
+INFO    2016-06-24 00:06:19,706 [main] MainLogger  - Target array for duplicate removal [1, 2, 34, 34, 25, 1, 45, 3, 26, 85, 4, 34, 86, 25, 43, 2, 1, 10000, 11, 16, 19, 1, 18, 4, 9, 3, 20, 17, 8, 15, 6, 2, 5, 10, 14, 12, 13, 7, 8, 9, 1, 2, 15, 12, 18, 10, 14, 20, 17, 16, 3, 6, 19, 13, 5, 11, 4, 7, 19, 16, 5, 9, 12, 3, 20, 7, 15, 17, 10, 6, 1, 8, 18, 4, 14, 13, 2, 11]
+DEBUG   2016-06-24 00:06:19,708 [main] MainLogger  - Method removeDuplicatesForMoreRedundantIntegers started
+DEBUG   2016-06-24 00:06:19,708 [main] MainLogger  - Method removeDuplicatesForMoreRedundantIntegers started
+INFO    2016-06-24 00:06:19,708 [main] MainLogger  - Integers after duplicate removal [1, 2, 34, 25, 45, 3, 26, 85, 4, 86, 43, 10000, 11, 16, 19, 18, 9, 20, 17, 8, 15, 6, 5, 10, 14, 12, 13, 7]
+DEBUG   2016-06-24 00:06:19,708 [main] MainLogger  - Method removeDuplicatesForLessRedundantElements started
+DEBUG   2016-06-24 00:06:19,709 [main] MainLogger  - Method removeDuplicatesForLessRedundantElements end
+INFO    2016-06-24 00:06:19,709 [main] MainLogger  - Integers after duplicate removal [1, 2, 34, 25, 45, 3, 26, 85, 4, 86, 43, 10000, 11, 16, 19, 18, 9, 20, 17, 8, 15, 6, 5, 10, 14, 12, 13, 7]
+DEBUG   2016-06-24 00:06:19,709 [main] MainLogger  - Method removeDuplicatesFromHugeArray started
+DEBUG   2016-06-24 00:06:19,709 [main] MainLogger  - Method removeDuplicatesFromHugeArray started
+INFO    2016-06-24 00:06:19,709 [main] MainLogger  - Integers after duplicate removal [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 25, 26, 34, 43, 45, 85, 86, 10000]
+INFO    2016-06-24 00:12:52,521 [main] MainLogger  - Target array for duplicate removal [1, 2, 34, 34, 25, 1, 45, 3, 26, 85, 4, 34, 86, 25, 43, 2, 1, 10000, 11, 16, 19, 1, 18, 4, 9, 3, 20, 17, 8, 15, 6, 2, 5, 10, 14, 12, 13, 7, 8, 9, 1, 2, 15, 12, 18, 10, 14, 20, 17, 16, 3, 6, 19, 13, 5, 11, 4, 7, 19, 16, 5, 9, 12, 3, 20, 7, 15, 17, 10, 6, 1, 8, 18, 4, 14, 13, 2, 11]
+DEBUG   2016-06-24 00:12:52,522 [main] MainLogger  - Method removeDuplicatesForMoreRedundantIntegers started
+DEBUG   2016-06-24 00:12:52,522 [main] MainLogger  - Method removeDuplicatesForMoreRedundantIntegers started
+INFO    2016-06-24 00:12:52,523 [main] MainLogger  - Integers after duplicate removal [1, 2, 34, 25, 45, 3, 26, 85, 4, 86, 43, 10000, 11, 16, 19, 18, 9, 20, 17, 8, 15, 6, 5, 10, 14, 12, 13, 7]
+DEBUG   2016-06-24 00:12:52,523 [main] MainLogger  - Method removeDuplicatesForLessRedundantElements started
+DEBUG   2016-06-24 00:12:52,523 [main] MainLogger  - Method removeDuplicatesForLessRedundantElements end
+INFO    2016-06-24 00:12:52,524 [main] MainLogger  - Integers after duplicate removal [1, 2, 34, 25, 45, 3, 26, 85, 4, 86, 43, 10000, 11, 16, 19, 18, 9, 20, 17, 8, 15, 6, 5, 10, 14, 12, 13, 7]
+DEBUG   2016-06-24 00:12:52,524 [main] MainLogger  - Method removeDuplicatesFromHugeArray started
+DEBUG   2016-06-24 00:12:52,524 [main] MainLogger  - Method removeDuplicatesFromHugeArray started
+INFO    2016-06-24 00:12:52,524 [main] MainLogger  - Integers after duplicate removal [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 25, 26, 34, 43, 45, 85, 86, 10000]
